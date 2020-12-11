@@ -1,0 +1,13 @@
+application:
+  name: do-app-test
+  project: do-app-test
+  organization: qovery-do-test
+  publicly_accessible: true
+  ram: 512MB
+  dockerfile: folder/Dockerfilexxx
+routers:
+- name: main
+  routes:
+  - application_name: do-app-test
+    paths:
+    - /
